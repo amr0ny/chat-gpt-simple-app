@@ -7,8 +7,6 @@
 
 ### Установка и запуск
 * Клонируйте репозиторий с помощью ```git clone https://github.com/amr0ny/chat-gpt-simple-app```
-* Создайте файл ```.env```, и добавьте значение ```API_KEY=<здесь должен быть ваш токен OpenAI>```
 * В терминале перейдите в корневую директорию, установите зависимости: ```python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt```
+* Создайте файл ```.env```, и добавьте значение ```API_KEY=<здесь должен быть ваш токен OpenAI>```
 * Запустите скрипт: ```python main.py```
-
-  
